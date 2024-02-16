@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+}
+
+.logo {
+    width: 100px;
+}
+
+body {
+    /* background-image: url(/img/fon_1.avif) ; */
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: rgba(154, 216, 255, 0.753);
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 100px;
+}
+
+.search {
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+
+}
+
+.search:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
+
+}
+
+.search1 {
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.bm {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.bm:hover {
+    color: rgb(168, 168, 168);
+}
+
+.slider {
+    border-radius: 20px;
+    background-color: rgba(192, 230, 253, 0.753);
+    width: 60%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sl_img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.str {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100px;
+}
+
+.sh1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.sh2 {
+    margin-bottom: 20px;
+}
+
+.shb {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.shb:hover {
+    cursor: pointer;
+    background-color: rgb(176, 223, 252);
+}
+
+footer {
+    border-radius: 10px 10px 0 0;
+    margin-top: 100px;
+    width: 70%;
+    background-color: rgba(157, 209, 241, 0.788);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ft{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.login {
+    border-radius: 15px;
+    background-color: rgba(157, 209, 241, 0.788);
+    width: 500px;
+    height: 453px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rg {
+    border-radius: 15px;
+    background-color: rgba(192, 230, 253, 0.753);
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lg4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lg1 {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.lg2 {
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 18px;
+    background-color: white
+}
+
+.lg2:hover {
+    background-color: rgb(176, 223, 252);
+    cursor: pointer;
+}
+
+.rg2 {
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 18px;
+    background-color: white
+}
+
+.rg2:hover {
+    background-color: rgb(176, 223, 252);
+    cursor: pointer;
+}
+
+.lg3 {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.search_an {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 550px;
+    background-image: url(img/bgdog1.png);
+    background-size: 100%;
+    margin-bottom: 50px;
+}
+
+.search_an1 {
+    width: 1000px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: rgba(192, 230, 253, 0.753);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.san {
+    width: 250px;
+    height: 40px;
+    font-size: 26px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-right: 10px;
+}
+
+.san1 {
+    font-size: 26px;
+}
+
+.san2 {
+    width: 120px;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-right: 10px;
+}
+
+.san3 {
+    font-size: 24px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.san3:hover {
+    cursor: pointer;
+    background-color: rgb(176, 223, 252);
+}
+.reg{
+    background-image:url(img/fncat2.png);
+    background-size: 100%;
+}
+
